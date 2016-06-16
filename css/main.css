@@ -13,6 +13,7 @@ TOP BAR
     background: #f1592a;
     border-bottom: 1px solid #eee;
     line-height: 28px;
+    color: #fff;
 }
 
 .social {
@@ -33,7 +34,7 @@ ul.social-share li {
 ul.social-share li a {
     display: inline-block;
     color: #fff;
-    background: #404040;
+    background: #f1592a;
     width: 25px;
     height: 25px;
     line-height: 25px;
