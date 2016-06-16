@@ -127,15 +127,18 @@ MAIN NAV
 
 /* Slider */
 .btn-slider {
-    color: #fff;
+    color: #000;
     background-color: #f1592a;
     text-transform: uppercase;
 }
 
 .btn-lg {
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 1.3333333;
     border-radius: 0;
 }
 
+.price {
+    color: #fff;
+}
