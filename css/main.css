@@ -6,7 +6,7 @@ body {
 }
 
 /* ===============================================================================
-            TOP BAR
+TOP BAR
 =================================================================================*/
 .top-bar {
     padding: 10px 0;
@@ -39,4 +39,54 @@ ul.social-share li a {
     line-height: 25px;
     text-align: center;
     border-radius: 2px;
+}
+
+/* ===============================================================================
+MAIN NAV
+=================================================================================*/
+
+.navbar-inverse {
+    border: none;
+}
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    background: #151515;
+    padding: 15px 0;
+    padding-bottom: 0;
+}
+
+.navbar-nav {
+    margin-top: 12px;
+}
+
+.navbar>.container .navbar-brand {
+    margin-left: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 36px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+/* The links */
+
+.navbar-nav>li {
+    margin-left: 35px;
+    padding-bottom: 28px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    padding: 5px 12px;
+    margin: 0;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 24px;
+    display: inline-block;
 }
