@@ -2,8 +2,8 @@
 Front-end design for ViiaTours.com
 
 #Developers
--Kenold Beaulan
--Jean E. Gustave
++ Kenold Beauplan // Twitter: [@kenoldb](https://twitter.com/kenoldb)
++ Jean E. Gustave [@jeangustavee](https://twitter.com/jeangustavee)
 
-#UI Design
--Jean E. Gustave
+#UI Designer
++ Jean E. Gustave
