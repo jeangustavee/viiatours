@@ -152,12 +152,24 @@ MAIN NAV
     padding-left: 15px;
 }
 
-.jumbotron {
-    background-color: #d6b9af;
+.slider {
+    background-color: #fff;
 }
 
-.jumbotron h1 {
+.slider h1 {
     color: #fff;
     text-transform: uppercase;
     font-size: 55px;
+}
+
+.slider .slide1 {
+    background-color: #434A52;
+}
+
+.slider .slide2 {
+    background-color: #3A5A97;
+}
+
+.slider .slide3 {
+    background-color: #B70501;
 }
