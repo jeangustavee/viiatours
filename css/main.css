@@ -165,6 +165,11 @@ MAIN NAV
     padding-bottom: 9px;
     margin: 40px 0 20px;
     border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+.headers h2.sale {
+    color: #f1592a;
 }
 
 .slider {
