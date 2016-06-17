@@ -146,4 +146,6 @@ MAIN NAV
 .headers h2 {
     font-size: 36px;
     text-transform: uppercase;
+    color: #1d728f;
+    padding-left: 15px;
 }
