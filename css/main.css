@@ -127,6 +127,18 @@ MAIN NAV
     background: none;
 }
 
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #f1592a;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #f1592a;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #eee;
+}
+
 /* Slider */
 .btn-slider {
     color: #000;
