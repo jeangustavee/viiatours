@@ -33,10 +33,6 @@ TOP BAR
     float: right;
 }
 
-.social-share.footer {
-    float: left;
-}
-
 ul.social-share li {
     display: inline-block;
 }
@@ -293,7 +289,9 @@ body>section {
     color: #fff;
 }
 
-
+.social-share.footer {
+    float: left;
+}
 
 
 
