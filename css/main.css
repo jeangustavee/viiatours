@@ -16,8 +16,13 @@ TOP BAR
     color: #fff;
 }
 
+#top-right {
+    /* float: right; */
+}
+
 .social {
     text-align: right;
+
 }
 
 .social-share {
@@ -25,6 +30,7 @@ TOP BAR
     list-style: none;
     padding: 0;
     margin: 0;
+    float: right;
 }
 
 ul.social-share li {
@@ -47,6 +53,7 @@ ul.social-share li a {
     list-style: none;
     padding: 0;
     margin: 0;
+    float: right;
 }
 
 ul.languages li {
