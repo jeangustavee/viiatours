@@ -165,12 +165,12 @@ SLIDER
 
 .carousel-caption {
     text-align:  left;
-    text-shadow: none;
     left: 15px;
 }
 
 .carousel-caption h1 {
     padding-left: 10px;
+    text-transform: uppercase;
 }
 
 .price {
