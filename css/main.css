@@ -160,6 +160,7 @@ SLIDER
     padding: 10px 16px;
     font-size: 28px;
     line-height: 1.3333333;
+    
 }
 
 .price {
@@ -210,6 +211,30 @@ SLIDER
 
 .slider .slide3 {
     background-color: #B70501;
+}
+
+@media screen and (min-width: 300px) {
+    #cover_2 {
+        width: 730px;
+    }
+    
+    #cover_3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 40em) {
+    #cover_2 {
+        display: none;
+    }
+    
+    #cover_3 {
+        display: none;
+    }
+    
+    #none {
+        display: none;
+    }
 }
 
 /* ===============================================================================
