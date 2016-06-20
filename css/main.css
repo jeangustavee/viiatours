@@ -163,8 +163,18 @@ SLIDER
     
 }
 
+.carousel-caption {
+    text-align:  left;
+    text-shadow: none;
+    left: 15px;
+}
+
 .price {
     color: #fff;
+}
+
+sup {
+    font-size: 13px;
 }
 
 .headers h2 {
