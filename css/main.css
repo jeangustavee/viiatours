@@ -157,7 +157,7 @@ SLIDER
     color: #000;
     background-color: #f1592a;
     text-transform: uppercase;
-    padding: 10px 16px;
+    padding: 10px;
     font-size: 28px;
     line-height: 1.3333333;
     
@@ -169,8 +169,13 @@ SLIDER
     left: 15px;
 }
 
+.carousel-caption h1 {
+    padding-left: 10px;
+}
+
 .price {
     color: #fff;
+    padding-left: 10px;
 }
 
 sup {
