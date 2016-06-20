@@ -180,7 +180,7 @@ sup {
 .headers h2 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #1d728f;
+    color: #f1592a;
     padding-left: 15px;
     padding-bottom: 9px;
     margin: 40px 0 20px;
@@ -189,7 +189,7 @@ sup {
 }
 
 .headers h2.sale {
-    color: #f1592a;
+    color: #1d728f;
 }
 
 .slider {
