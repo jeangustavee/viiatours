@@ -1,5 +1,5 @@
 /**
- * Created by Kenold Beauplan on 6/21/2016.
+ * Fade in/out carousel image
  */
 
 $(".slide img").hover(function(){
