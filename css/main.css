@@ -254,6 +254,21 @@ button modifier
     border-color: #f1592a;
 }
 
+.btn-primary:hover{
+    background: #2b8aca;
+    color: white;
+    border-radius: 0;
+    border-color: #2b8aca;
+}
+
+.box_sale {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    background: #f1592a;
+    padding: 18px 16px;
+}
+
 
 /* ===============================================================================
 FOOTER
