@@ -173,6 +173,16 @@ SLIDER
     text-transform: uppercase;
 }
 
+.carousel-caption a {
+    text-shadow: none;
+}
+
+.carousel-caption a:hover {
+    color: #7a2105;
+    text-decoration: none;
+    text-shadow: none;
+}
+
 .price {
     color: #fff;
     padding-left: 10px;
