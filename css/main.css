@@ -151,7 +151,7 @@ MAIN NAV
 }
 
 /* ===============================================================================
-SLIDER
+CAROUSEL
 =================================================================================*/
 .slide-name {
     color: #000;
@@ -161,6 +161,11 @@ SLIDER
     font-size: 28px;
     line-height: 1.3333333;
     
+}
+
+.carousel img {
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 .carousel-caption {
