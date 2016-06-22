@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -128,7 +129,7 @@
             <!-- p><img data-src="holder.js/100px200?theme=sky"> </p -->
             <p><span class="box_sale"> 10%<sup>off</sup> </span>
                 <img src="images/snokleing-bebe-catamaran-1.jpg" class="img-responsive"> </p>
-            <h3>buggies & zipline <span style="float:right;"><strike>$144</strike> <font color="#2b8aca">$120</font></span></h3>
+            <h3>buggies & zipline <span style="float:right;"><strike> <font size="3px;">$144</font></strike> <br><font color="#2b8aca">$120</font></span></h3>
             <p>VIIA TOURS is offering you 2 of the most popular excursions for the cheapest price you can possible find online.</p>
             <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">View details</a></p>
         </div>
