@@ -151,63 +151,20 @@ MAIN NAV
 }
 
 /* ===============================================================================
-CAROUSEL
+SLIDER
 =================================================================================*/
 .slide-name {
     color: #000;
     background-color: #f1592a;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 10px 16px;
     font-size: 28px;
     line-height: 1.3333333;
 
 }
 
-.slide img {
-    opacity: 0.6;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
-.carousel .slide {
-    background-color: #000;
-}
-
-.carousel-caption {
-    text-align:  left;
-    left: 15px;
-}
-
-.carousel-caption h1 {
-    padding-left: 10px;
-    text-transform: uppercase;
-}
-
-.carousel-caption h4 {
-    padding: 0;
-    margin: 0;
-}
-
-.carousel-caption a {
-    text-shadow: none;
-}
-
-.carousel-caption a:hover {
-    color: #7a2105;
-    text-decoration: none;
-    text-shadow: none;
-}
-
 .price {
     color: #fff;
-    padding-left: 10px;
-}
-
-strike {
-    color: #4e4e4e;
-}
-
-sup {
-    font-size: 13px;
 }
 
 .headers h2 {
@@ -222,13 +179,20 @@ sup {
 }
 
 .headers h2.sale {
-    color: #1d728f;
+    color: #f1592a;
 }
 
 .slider {
     background-color: #fff;
     margin-bottom: 30px;
     padding: 0 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .slider {
+        /* padding-top: 48px;
+        padding-bottom: 48px; */
+    }
 }
 
 .slider h1 {
@@ -271,46 +235,6 @@ sup {
     #none {
         display: none;
     }
-
-    .top-bar {
-        display: none;
-    }
-
-    .carousel-caption h1 {
-        display: none;
-    }
-}
-
-/*========= FONTS MODIFIER =============*/
-h3 {
-    color: #f1592a;
-    text-transform: uppercase;
-}
-
-
-/* ==================================================================
-button modifier
-=========================================================*/
-.btn-primary {
-    background: transparent;
-    color: #f1592a;
-    border-radius: 0;
-    border-color: #f1592a;
-}
-
-.btn-primary:hover{
-    background: #2b8aca;
-    color: white;
-    border-radius: 0;
-    border-color: #2b8aca;
-}
-
-.box_sale {
-    position: absolute;
-    font-size: 20px;
-    color: white;
-    background: #f1592a;
-    padding: 18px 16px;
 }
 
 /*========= FONTS MODIFIER =============*/
@@ -356,12 +280,12 @@ FOOTER
 =================================================================================*/
 body>section {
     padding: 70px 0;
-    margin-top: 30px;
     text-align: center;
 }
 
 #bottom {
-    background: #f1592a;
+    background: #f5f5f5;
+    border-bottom: 5px solid #c52d2f;
     font-size: 14px;
 }
 
@@ -374,7 +298,7 @@ body>section {
     margin-bottom: 10px;
     text-transform: uppercase;
     font-size: 22px;
-    color: #fff;
+    color: #000;
 }
 .widget h3 {
     color: #000;
@@ -398,12 +322,11 @@ body>section {
 #bottom ul li {
     display: block;
     padding: 5px 0;
-    color: #fff;
 }
 
 
 #bottom ul li a {
-    color: #fff;
+    color: #808080;
 }
 
 #footer {
@@ -433,6 +356,5 @@ body>section {
 .social-share.footer {
     float: left;
 }
-
 
 
