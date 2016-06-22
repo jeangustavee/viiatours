@@ -129,12 +129,12 @@ MAIN NAV
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #1d728f;
+    color: #2b8aca;
     background: none;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #1d728f;
+    color: #2b8aca;
     background: none;
 }
 
@@ -160,7 +160,7 @@ CAROUSEL
     padding: 10px;
     font-size: 28px;
     line-height: 1.3333333;
-    
+
 }
 
 .slide img {
@@ -213,7 +213,7 @@ sup {
 .headers h2 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #f1592a;
+    color: #2b8aca;
     padding-left: 15px;
     padding-bottom: 9px;
     margin: 40px 0 20px;
@@ -253,7 +253,7 @@ sup {
     #cover_2 {
         width: 730px;
     }
-    
+
     #cover_3 {
         width: 100%;
     }
@@ -263,11 +263,11 @@ sup {
     #cover_2 {
         display: none;
     }
-    
+
     #cover_3 {
         display: none;
     }
-    
+
     #none {
         display: none;
     }
@@ -313,12 +313,51 @@ button modifier
     padding: 18px 16px;
 }
 
+/*========= FONTS MODIFIER =============*/
+h3 {
+    color: #f1592a;
+    text-transform: uppercase;
+}
+
+
+/* ==================================================================
+button modifier
+=========================================================*/
+.btn-primary {
+    background: transparent;
+    color: #f1592a;
+    border-radius: 0;
+    border-color: #f1592a;
+}
+
+.btn-primary:hover{
+    background: #2b8aca;
+    color: white;
+    border-radius: 0;
+    border-color: #2b8aca;
+}
+
+.box_sale {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    background: #f1592a;
+    padding: 18px 16px;
+}
+
+/* ============ GENERAL MODIFIER ================*/
+
+@media screen and (max-width: 40em){
+}
+
+
 /* ===============================================================================
 FOOTER
 =================================================================================*/
 body>section {
     padding: 70px 0;
     margin-top: 30px;
+    text-align: center;
 }
 
 #bottom {
@@ -327,7 +366,7 @@ body>section {
 }
 
 #bottom .widget {
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 #bottom h3 {
@@ -371,7 +410,7 @@ body>section {
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
-    background: #000;
+    background: #f1592a;
 }
 
 
