@@ -22,7 +22,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -87,47 +87,39 @@
 
 <div class="container">
 
-<!-- SLIDER
-================================================== -->
+    <!-- SLIDER
+    ================================================== -->
 
-        <div class="row">
-            <div class="carousel">
-                <div class="col-md-6">
-                    <div class="slide">
-                        <img src="images/Cover%201.png" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h1>Top Rated Tour</h1>
-                            <h4><a class="slide-name" href="#">Snorkling + Buggy <span class="price"><sup>from</sup> $120</span></a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="slide">
-                        <img src="images/cover-2.png" class="img-responsive" id="cover_2">
-                        <div class="carousel-caption" id="none">
-                            <h1>Slide 2</h1>
-                            <a class="slide-name price" href="#">$89</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="slide">
-                        <img src="images/cover-3.png" class="img-responsive" id="cover_3">
-                        <div class="carousel-caption" id="none">
-                            <h1>Slide 3</h1>
-                            <a class="slide-name price" href="#">$65</a>
-                        </div>
-                    </div>
-                </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/viia-combo-fetured.jpg" class="img-responsive">
+            <div class="carousel-caption">
+                <h2>TOP RATED TOUR</h2>
+                <p><a class="slide-name" href="#">SNORKELING & BUGGY <br><span class="price"><font size="3px"> <sup>from</sup> </font> $100</span></a></p>
             </div>
         </div>
+        <div class="col-md-3">
+            <img src="images/cover-2.png" class="img-responsive" id="cover_2">
+            <div class="carousel-caption" id="none">
+                <h2><center>SNORKELING</center></h2>
+                <p><a class="slide-name price" href="#"><font size="3px"><sup>from</sup></font> $89</a></p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <img src="images/transportation-cover-picture.jpg" class="img-responsive" id="cover_3">
+            <div class="carousel-caption" id="none">
+                <h2>AIRPORT PICKUP</h2>
+                <p><a class="slide-name price" href="#"><font size="3px"><sup>from</sup></font> $65</a></p>
+            </div>
+        </div>
+    </div>
 
 </div>
 
-<div class="container">
-
 <!-- PROMO BOXES
 ================================================== -->
+
+<div class="container">
 
     <div class="row">
         <div class="headers">
@@ -135,55 +127,60 @@
         </div>
         <div class="col-md-4">
             <!-- p><img data-src="holder.js/100px200?theme=sky"> </p -->
-            <p><img src="images/slide1.jpg" class="img-responsive"> </p>
+            <p><span class="box_sale"> 10%<sup>off</sup> </span>
+                <img src="images/snokleing-bebe-catamaran-1.jpg" class="img-responsive"> </p>
+            <h3>buggies & zipline <span style="float:right;"><strike> <font size="3px;">$144</font></strike> <br><font color="#2b8aca">$120</font></span></h3>
+            <p>VIIA TOURS is offering you 2 of the most popular excursions for the cheapest price you can possible find online.</p>
+            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">View details</a></p>
         </div>
+
         <div class="col-md-4">
-            <p><img src="images/slide2.jpg" class="img-responsive"> </p>
+            <p><img src="images/maxres-polaris-viiatours.jpg" class="img-responsive"> </p>
+            <h3>dune buggy <span style="float:right;"> <font color="#2b8aca">$85</font></span> </h3>
+            <p>Visit and swim in an Indian cave. Drive on Macao Beach.  The racing time starts somewhere here in Punta Cana. Are you ready?</p>
+            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">View details</a></p>
         </div>
+
         <div class="col-md-4">
-            <p><img src="images/slide3.jpg" class="img-responsive"> </p>
+            <p><img src="images/zipline-canopy-puntacana-viia-tours.jpg" class="img-responsive"> </p>
+            <h3>zip line adventure <span style="float:right;"><font color="#2b8aca">$89</font></span> </h3>
+            <p>Discover the most exhilarating Adventure in the Dominican Republic with our canopy zip line experience.</p>
+            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">View details</a></p>
         </div>
     </div>
 
-<!-- TOURS
-================================================== -->
+    <!-- TOURS
+    ================================================== -->
 
     <div class="row">
         <div class="headers">
             <h2>Featured Excursion Deals</h2>
         </div>
         <div class="col-md-3">
-            <p><img data-src="holder.js/100px200?bg=b70501"> </p>
-            <h4>Tour 1</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                et dolore magna aliqua.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p><a href="#"><img src="images/featured-sales/saona-island-5.jpg" class="img-responsive"></a> </p>
+            <h4>SAONA ISLAND <span style="float:right;">$85</span> </h4>
+            <p>Heaven on earth, feel the caribbean breeze, sailing on a Catamaran over the Caribbean sea to a remote island that is totally breathtaking</p>
         </div>
         <div class="col-md-3">
-            <p><img data-src="holder.js/100px200?bg=#444"> </p>
-            <h4>Tour 2</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                et dolore magna aliqua.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p><a href="#"><img src="images/featured-sales/maxresdefault-viiatours.jpg" class="img-responsive"></a> </p>
+            <h4>SAFARI <span style="float:right;">$85</span></h4>
+            <p>Plenty to discover on this full day adventure including a visit the countryside and learn about Coffee and Cocoa plantation where you’ll try some organic coffee and Cacao.</p>
         </div>
         <div class="col-md-3">
-            <p><img data-src="holder.js/100px200?theme=social"> </p>
-            <h4>Tour 3</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                et dolore magna aliqua.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p><a href="#"><img src="images/featured-sales/horse-riding-1.jpg" class="img-responsive"></a> </p>
+            <h4>HORSEBACK RIDING <span style="float:right;">$63</span></h4>
+            <p>Live the dream of riding a horse along tropical white-sand beaches on this day trip from Punta Cana! Gorgeous scenery, friendly guides and amazing horses make this trip a trip to remember.</p>
         </div>
         <div class="col-md-3">
-            <p><img data-src="holder.js/100px200?theme=industrial"> </p>
-            <h4>Tour 4</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                et dolore magna aliqua.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p><a href="#"> <img src="images/featured-sales/santo-domingo-1.jpg" class="img-responsive"> </a></p>
+            <h4>SANTO DOMINGO <span style="float:right;">$82</span></h4>
+            <p>Santo Domingo is the capital city of the Dominican Republic,and it is  the oldest continually inhabited European settlement in the Americas.</p>
         </div>
     </div>
 
 </div> <!-- /container -->
 
+<hr>
 <!-- FOOTER
 ================================================== -->
 <section id="bottom">
@@ -252,10 +249,9 @@
 
 <!-- TODO: Delete holder.js line before putting live -->
 <script src="js/holder.min.js"></script>
-<script src="js/main.js"></script>
-    
+
 <!-- flowtype -->
-    <script src="js/flowtype.js"></script>
+<script src="js/flowtype.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
