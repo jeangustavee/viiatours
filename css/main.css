@@ -202,6 +202,10 @@ CAROUSEL
     padding-left: 10px;
 }
 
+strike {
+    color: #4e4e4e;
+}
+
 sup {
     font-size: 13px;
 }
