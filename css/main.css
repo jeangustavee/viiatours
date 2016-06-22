@@ -170,7 +170,7 @@ SLIDER
 .headers h2 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #1d728f;
+    color: #2b8aca;
     padding-left: 15px;
     padding-bottom: 9px;
     margin: 40px 0 20px;
@@ -269,12 +269,18 @@ button modifier
     padding: 18px 16px;
 }
 
+/* ============ GENERAL MODIFIER ================*/
+
+@media screen and (max-width: 40em){
+}
+
 
 /* ===============================================================================
 FOOTER
 =================================================================================*/
 body>section {
     padding: 70px 0;
+    text-align: center;
 }
 
 #bottom {
@@ -284,7 +290,7 @@ body>section {
 }
 
 #bottom .widget {
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 #bottom h3 {
@@ -327,7 +333,7 @@ body>section {
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
-    background: #2e2e2e;
+    background: #f1592a;
 }
 
 
