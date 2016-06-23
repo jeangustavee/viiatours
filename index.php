@@ -22,7 +22,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -87,38 +87,38 @@
 
 <div class="container">
 
-    <!-- SLIDER
-    ================================================== -->
+<!-- SLIDER
+================================================== -->
 
-    <div class="row">
-        <div class="col-md-6">
-            <img src="images/viia-combo-fetured.jpg" class="img-responsive">
-            <div class="carousel-caption">
-                <h2>TOP RATED TOUR</h2>
-                <p><a class="slide-name" href="#">SNORKELING & BUGGY <br><span class="price"><font size="3px"> <sup>from</sup> </font> $100</span></a></p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/viia-combo-fetured.jpg" class="img-responsive">
+                <div class="carousel-caption">
+                    <h2>TOP RATED TOUR</h2>
+                    <p><a class="slide-name" href="#">SNORKELING & BUGGY <br><span class="price"><font size="3px"> <sup>from</sup> </font> $100</span></a></p>
+                </div>
             </div>
-        </div>
-        <div class="col-md-3">
-            <img src="images/cover-2.png" class="img-responsive" id="cover_2">
-            <div class="carousel-caption" id="none">
-                <h2><center>SNORKELING</center></h2>
-                <p><a class="slide-name price" href="#"><font size="3px"><sup>from</sup></font> $89</a></p>
+            <div class="col-md-3">
+                <img src="images/cover-2.png" class="img-responsive" id="cover_2">
+                <div class="carousel-caption" id="none">
+                    <h2><center>SNORKELING</center></h2>
+                    <p><a class="slide-name price" href="#"><font size="3px"><sup>from</sup></font> $89</a></p>
+                </div>
             </div>
-        </div>
-        <div class="col-md-3">
-            <img src="images/transportation-cover-picture.jpg" class="img-responsive" id="cover_3">
-            <div class="carousel-caption" id="none">
+            <div class="col-md-3">
+                <img src="images/transportation-cover-picture.jpg" class="img-responsive" id="cover_3">
+                <div class="carousel-caption" id="none">
                 <h2>AIRPORT PICKUP</h2>
-                <p><a class="slide-name price" href="#"><font size="3px"><sup>from</sup></font> $65</a></p>
+                    <p><a class="slide-name price" href="#"><font size="3px"><sup>from</sup></font> $65</a></p>
+                    </div>
             </div>
         </div>
-    </div>
 
 </div>
 
-<!-- PROMO BOXES
+    <!-- PROMO BOXES
 ================================================== -->
-
+    
 <div class="container">
 
     <div class="row">
@@ -133,14 +133,14 @@
             <p>VIIA TOURS is offering you 2 of the most popular excursions for the cheapest price you can possible find online.</p>
             <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">View details</a></p>
         </div>
-
+        
         <div class="col-md-4">
             <p><img src="images/maxres-polaris-viiatours.jpg" class="img-responsive"> </p>
             <h3>dune buggy <span style="float:right;"> <font color="#2b8aca">$85</font></span> </h3>
             <p>Visit and swim in an Indian cave. Drive on Macao Beach.  The racing time starts somewhere here in Punta Cana. Are you ready?</p>
             <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">View details</a></p>
         </div>
-
+        
         <div class="col-md-4">
             <p><img src="images/zipline-canopy-puntacana-viia-tours.jpg" class="img-responsive"> </p>
             <h3>zip line adventure <span style="float:right;"><font color="#2b8aca">$89</font></span> </h3>
@@ -149,8 +149,8 @@
         </div>
     </div>
 
-    <!-- TOURS
-    ================================================== -->
+<!-- TOURS
+================================================== -->
 
     <div class="row">
         <div class="headers">
@@ -159,7 +159,7 @@
         <div class="col-md-3">
             <p><a href="#"><img src="images/featured-sales/saona-island-5.jpg" class="img-responsive"></a> </p>
             <h4>SAONA ISLAND <span style="float:right;">$85</span> </h4>
-            <p>Heaven on earth, feel the caribbean breeze, sailing on a Catamaran over the Caribbean sea to a remote island that is totally breathtaking</p>
+           <p>Heaven on earth, feel the caribbean breeze, sailing on a Catamaran over the Caribbean sea to a remote island that is totally breathtaking</p>
         </div>
         <div class="col-md-3">
             <p><a href="#"><img src="images/featured-sales/maxresdefault-viiatours.jpg" class="img-responsive"></a> </p>
@@ -249,9 +249,9 @@
 
 <!-- TODO: Delete holder.js line before putting live -->
 <script src="js/holder.min.js"></script>
-
+    
 <!-- flowtype -->
-<script src="js/flowtype.js"></script>
+    <script src="js/flowtype.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
