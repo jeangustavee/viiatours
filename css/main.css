@@ -305,8 +305,15 @@ MAIN NAV
 =================================================================================*/
 #tours .tours-middle {
     border: 1px solid #f1592a;
-    padding:  10px;
+    padding:  15px;
     min-height: 175px;
+}
+
+#tours .tours-middle h3 {
+    color: #2b8aca;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+    margin: 0;
 }
 
 #tours .tours-price {
@@ -314,6 +321,10 @@ MAIN NAV
     color: #fff;
     min-height: 175px;
     text-align: center;
+}
+
+#tours .tours-price p:first-child {
+    padding-top: 20px;
 }
 
 
