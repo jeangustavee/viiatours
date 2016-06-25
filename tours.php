@@ -27,14 +27,14 @@
 
         <div class="col-sm-6">
             <div class="tours-middle">
-                <p><font size="5px">SNORKELIING ADVENTURE</font></p>
+                <h3>Snorkelling Adventure</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley  </p>
             </div>
         </div>
 
         <div class="col-sm-3">
             <div class="tours-price">
-                <center>from USD</center>
+                <p>from USD</p>
                 <h2><center>$100</center></h2>
                 <p><a class="btn btn-blue btn-md" href="#" role="button">BOOK NOW</a></p>
             </div>
