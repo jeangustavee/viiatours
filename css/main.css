@@ -282,8 +282,7 @@ button modifier
 }
 
 .btn-blue:hover{
-    background: transparent;
-    color: #fff;
+    color: #000;
     border-radius: 0;
     border-color: #2b8aca;
 }
@@ -314,6 +313,7 @@ MAIN NAV
     background-color: #f1592a;
     color: #fff;
     min-height: 175px;
+    text-align: center;
 }
 
 
