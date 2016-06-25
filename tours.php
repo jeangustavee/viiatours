@@ -36,7 +36,7 @@
             <div class="tours-price">
                 <center>from USD</center>
                 <h2><center>$100</center></h2>
-                <p><a class="btn btn-blue btn-md btn-block" href="#" role="button">BOOK NOW</a></p>
+                <p><a class="btn btn-blue btn-md" href="#" role="button">BOOK NOW</a></p>
             </div>
         </div>
     </div> <!-- /.row #tours -->
