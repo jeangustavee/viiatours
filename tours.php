@@ -10,13 +10,12 @@
     
 <!-- TOURS -->
    
-    <!-- Page Content -->
+<!-- Page Content -->
 <div class="container">
-    
- <hr>
-    <!-- Preview Image -->
-    <img class="img-responsive center-block" src="images/tours/cover_img/tours-cover-img.png" alt="">
-<hr>
+    <hr>
+        <!-- Preview Image -->
+        <img class="img-responsive center-block" src="images/tours/cover_img/tours-cover-img.png" alt="">
+    <hr>
     
    <!-- TOURS -->
     <div class="row" id="tours">
@@ -40,15 +39,10 @@
                 <p><a class="btn btn-primary btn-md btn-block" href="#" role="button">BOOK NOW</a></p>
             </div>
         </div>
-    </div>
-    
-    
-    
-    
-    
-    
-   <!-- page content --> 
-    </div>    
+    </div> <!-- /#tours -->
+
+</div> <!-- /. container -->
+
 <hr>
 <!-- FOOTER -->
 <?php include('inc/footer.php'); ?>
