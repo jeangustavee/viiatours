@@ -27,7 +27,7 @@
         </div>
 
         <div class="tours-middle">
-            <div class="col-sm-6" style="padding:10px">
+            <div class="col-sm-6">
                 <p><font size="5px">SNORKELIING ADVENTURE</font></p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley  </p>
             </div>
