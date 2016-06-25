@@ -1,7 +1,11 @@
+<!-- set a name for thisPage variable -->
+<?php $thisPage="Home"; ?>
+
+<!-- call head partial file -->
 <?php include('inc/head.php'); ?>
 
 <body>
-
+<!-- call head partial file -->
 <?php include('inc/header.php'); ?>
 
 <div class="container">

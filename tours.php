@@ -1,7 +1,11 @@
+<!-- set a name for thisPage variable -->
+<?php $thisPage="Tours"; ?>
+
+<!-- call head partial file -->
 <?php include('inc/head.php'); ?>
 
 <body>
-
+<!-- call head partial file -->
 <?php include('inc/header.php'); ?>
     
 <!-- TOURS -->
