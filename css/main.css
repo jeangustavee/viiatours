@@ -320,11 +320,30 @@ MAIN NAV
     background-color: #f1592a;
     color: #fff;
     min-height: 175px;
+    position: relative;
     text-align: center;
 }
 
-#tours .tours-price p:first-child {
+#tours .tours-price p {
     padding-top: 20px;
+}
+
+#tours .tour-deal {
+    z-index: 9999;
+}
+
+#tours .tours-price .tour-deal {
+    background-color: #2b8aca;
+    border-radius: 100%;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    left: -10px;
+    top: -10px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50px;
 }
 
 
