@@ -34,6 +34,7 @@
 
         <div class="col-sm-3">
             <div class="tours-price">
+                <span class="tour-deal">Deal</span>
                 <p>from USD</p>
                 <h2><center>$100</center></h2>
                 <p><a class="btn btn-blue btn-md" href="#" role="button">BOOK NOW</a></p>
