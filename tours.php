@@ -20,7 +20,7 @@
     
    <!-- TOURS -->
     <div class="row" id="tours">
-        <div class="tours-thumb"></div>
+        <div class="tours-thumb">
             <div class="col-sm-3">
                 <a href="#"><img src="images/tours/snorkeling/tour-saona.png" class="img-responsive" alt=""></a>
             </div>
