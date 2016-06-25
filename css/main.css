@@ -241,6 +241,15 @@ SLIDER
     }
 }
 
+/*============ COVER IMAGE ==============*/
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
 /*========= FONTS MODIFIER =============*/
 h3 {
     color: #f1592a;
@@ -274,6 +283,8 @@ button modifier
 }
 
 /* ============ GENERAL MODIFIER ================*/
+
+
 
 @media screen and (max-width: 40em){
 }

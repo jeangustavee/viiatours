@@ -8,7 +8,7 @@
 
 <!-- SLIDER
 ================================================== -->
-
+<hr>
         <div class="row">
             <div class="col-md-6">
                 <img src="images/viia-combo-fetured.jpg" class="img-responsive">
