@@ -16,30 +16,32 @@
         <!-- Preview Image -->
         <img class="img-responsive center-block" src="images/tours/cover_img/tours-cover-img.png" alt="">
     <hr>
-    
-   <!-- TOURS -->
+
+    <!-- ---------------------- TOURS ROW 1-->
     <div class="row" id="tours">
-        <div class="tours-thumb">
-            <div class="col-sm-3">
+        <div class="col-sm-3">
+            <div class="tours-thumb">
                 <a href="#"><img src="images/tours/snorkeling/tour-saona.png" class="img-responsive" alt=""></a>
             </div>
         </div>
 
-        <div class="tours-middle">
-            <div class="col-sm-6">
+        <div class="col-sm-6">
+            <div class="tours-middle">
                 <p><font size="5px">SNORKELIING ADVENTURE</font></p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley  </p>
             </div>
         </div>
-        
-        <div class="tours-price">
-            <div class="col-sm-3">
-                <p><center>from USD</center></p>
+
+        <div class="col-sm-3">
+            <div class="tours-price">
+                <center>from USD</center>
                 <h2><center>$100</center></h2>
-                <p><a class="btn btn-primary btn-md btn-block" href="#" role="button">BOOK NOW</a></p>
+                <p><a class="btn btn-blue btn-md btn-block" href="#" role="button">BOOK NOW</a></p>
             </div>
         </div>
-    </div> <!-- /#tours -->
+    </div> <!-- /.row #tours -->
+
+    <!-- ---------------------- END TOURS ROW 1-->
 
 </div> <!-- /. container -->
 
