@@ -39,12 +39,24 @@
             </div>
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.php">Home</a></li>
-                    <li><a href="tours.php">Tours</a></li>
-                    <li><a href="transportation.php">Transport</a></li>
-                    <li><a href="company.php">About</a></li>
-                    <li><a href="blog.php">Blog</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li <?php if ($thisPage=="Home")
+                        echo " class=\"active\""; ?>>
+                        <a href="index.php">Home</a></li>
+                    <li <?php if ($thisPage=="Tours")
+                        echo " class=\"active\""; ?>>
+                        <a href="tours.php">Tours</a></li>
+                    <li <?php if ($thisPage=="Transportation")
+                        echo " class=\"active\""; ?>>
+                        <a href="transportation.php">Transport</a></li>
+                    <li <?php if ($thisPage=="About")
+                        echo " class=\"active\""; ?>>
+                        <a href="company.php">About</a></li>
+                    <li <?php if ($thisPage=="Blog")
+                        echo " class=\"active\""; ?>>
+                        <a href="blog.php">Blog</a></li>
+                    <li <?php if ($thisPage=="Contact")
+                        echo " class=\"active\""; ?>>
+                        <a href="contact.php">Contact</a></li>
 
                 </ul>
             </div>
