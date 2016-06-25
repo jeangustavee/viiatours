@@ -274,6 +274,20 @@ button modifier
     border-color: #2b8aca;
 }
 
+.btn-blue {
+    background: #2b8aca;
+    color: #fff;
+    border-radius: 0;
+    border-color: #f1592a;
+}
+
+.btn-blue:hover{
+    background: transparent;
+    color: #fff;
+    border-radius: 0;
+    border-color: #2b8aca;
+}
+
 .box_sale {
     position: absolute;
     font-size: 20px;
@@ -284,9 +298,22 @@ button modifier
 
 /* ============ GENERAL MODIFIER ================*/
 
-
-
 @media screen and (max-width: 40em){
+}
+
+/* ===============================================================================
+MAIN NAV
+=================================================================================*/
+#tours .tours-middle {
+    border: 1px solid #f1592a;
+    padding:  10px;
+    min-height: 175px;
+}
+
+#tours .tours-price {
+    background-color: #f1592a;
+    color: #fff;
+    min-height: 175px;
 }
 
 
