@@ -48,9 +48,9 @@
                     <li <?php if ($thisPage=="Transportation")
                         echo " class=\"active\""; ?>>
                         <a href="transportation.php">Transport</a></li>
-                    <li <?php if ($thisPage=="About")
+                    <li <?php if ($thisPage=="Sale")
                         echo " class=\"active\""; ?>>
-                        <a href="company.php">About</a></li>
+                        <a href="sale.php">Sale</a></li>
                     <li <?php if ($thisPage=="Blog")
                         echo " class=\"active\""; ?>>
                         <a href="blog.php">Blog</a></li>

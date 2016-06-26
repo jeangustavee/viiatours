@@ -11,11 +11,22 @@
                     </ul>
                 </div>
             </div>
+            
             <div class="col-md-4 col-sm-6">
                 <div class="widget">
-                    <h3>Contact Form here</h3>
+                    <h3>Join The Party</h3><br>
+                    <form action="" method="post" role="form">
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <i class="fa fa-envelope"></i>
+                      </span>
+                      <input class="form-control" type="text" id="" name="" placeholder="your@email.com">
+                    </div>
+                    <input type="submit" value="Subscribe" class="btn btn-large btn-primary btn-block" />
+              </form>
                 </div>
             </div>
+            
             <div class="col-md-4 col-sm-6">
                 <div class="widget">
                     <h3>Top Destinations</h3>
@@ -23,11 +34,8 @@
                         <li><a href="#">Punta Cana</a></li>
                         <li><a href="#">Santo Domingo</a></li>
                         <li><a href="#">Mexico</a></li>
-                        <li><a href="#">Riviera Maya</a></li>
-                        <li><a href="#">Mazatlan</a></li>
-                        <li><a href="#">Jacksonville</a></li>
-                        <li><a href="#">Miami</a></li>
-                        <li><a href="#">San Francisco</a></li>
+                        <li><a href="#">Bahamas</a></li>
+                        <li><a href="#">Cuba</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,17 +46,21 @@
 <footer id="footer" class="midnight-blue">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                &copy; 2016 <a href="#" title="Viia Tours - Punta Cana Tours">Viia Tours</a>. All Rights Reserved.
+            <div class="col-sm-4">
+                &copy; 2016 <a href="#" title="Viia Tours - Punta Cana Tours">Viia Tours LLC</a>. All Rights Reserved.
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-8">
                 <ul class="pull-right">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Tours</a></li>
+                    <li><a href="#">Sale</a></li>
                     <li><a href="#">Transport</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Policy</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
