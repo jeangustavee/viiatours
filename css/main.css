@@ -184,6 +184,11 @@ SLIDER
     color: #f1592a;
 }
 
+.headers p{
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
 .slider {
     background-color: #fff;
     margin-bottom: 30px;
@@ -225,7 +230,7 @@ SLIDER
     }
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 50.5em) {
     #cover_2 {
         display: none;
     }
@@ -256,6 +261,11 @@ SLIDER
 h3 {
     color: #f1592a;
     text-transform: uppercase;
+}
+
+/*================ NEWSLETTER FORM ================*/
+input.btn-primary {
+  margin-top: 15px;
 }
 
 
@@ -448,6 +458,11 @@ MAIN NAV
     }
 }
 
+
+/* ============= CAROUSEL =================*/
+    .myCarousel {
+        
+    }
 
 /* ===============================================================================
 FOOTER
