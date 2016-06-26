@@ -71,6 +71,7 @@
             <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">View details</a></p>
         </div>
     </div>
+    <hr>
 
 <!-- TOURS
 ================================================== -->

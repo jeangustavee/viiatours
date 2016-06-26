@@ -1,3 +1,5 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
 body {
     background: #fff;
     font-family: "Montserrat", Arial, sans-serif;
@@ -295,9 +297,65 @@ button modifier
     padding: 18px 16px;
 }
 
+#btn-tours-media {
+    display: none;
+}
+
 /* ============ GENERAL MODIFIER ================*/
 
-@media screen and (max-width: 40em){
+@media screen and (max-width: 50.5em){
+    #btn-tours-media {
+        display: block;
+        margin-top: -65px;
+    }
+    
+    .btn-blue {
+        display: none;
+    }
+}
+
+
+/* ================= TOUR SEARCH ===============*/
+
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
 }
 
 /* ===============================================================================
@@ -329,7 +387,7 @@ MAIN NAV
 }
 
 #tours .tours-price p {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 #tours .tour-deal {
@@ -348,6 +406,46 @@ MAIN NAV
     text-align: center;
     text-transform: uppercase;
     width: 50px;
+}
+
+@media screen and (max-width: 52em) {
+    
+    #tours {
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: -5px;
+    border: 1px solid #f1592a;
+    }
+    
+    .from-price {
+    display: none;
+    }
+    
+    .price-hidden {
+        color: #2b8aca;
+        position:relative;
+        margin-top:;
+        margin-bottom: 55px;
+        text-align: center;
+    }
+    
+    #tours .tours-middle {
+    border: none;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    min-height: 175px;
+    }
+    
+    #tours .tours-price {
+    background-color: transparent;
+    padding-top: 1px;
+    min-height: 75px;
+    }
+    
+    #tours .tour-deal {
+    display: none;
+    z-index: 9999;
+    }
 }
 
 
