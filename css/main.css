@@ -368,9 +368,23 @@ button modifier
     }
 }
 
+/*==================== BOOKING FORM =====================*/
+label {
+    /* Other styling.. */
+    text-align: left;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
 /* ===============================================================================
 MAIN NAV
 =================================================================================*/
+a:hover{
+    text-decoration: none;
+    
+}
+
 #tours {
     margin-bottom: 20px;
 }
@@ -462,6 +476,21 @@ MAIN NAV
 /* ============= CAROUSEL =================*/
     .myCarousel {
         
+    }
+
+/*============= GOOGLE TRANSLATE ===========*/
+#google_translate_element .goog-te-gadget-simple {
+    background-color: #f1592a;
+    border: none;
+    }
+
+#google_translate_element .goog-te-gadget-simple a.goog-te-menu-value span {
+    color:#fff;
+    }
+
+#google_translate_element .goog-te-gadget-simple a.goog-te-menu-value span:hover {
+    color:#000;
+    text-decoration: none;
     }
 
 /* ===============================================================================

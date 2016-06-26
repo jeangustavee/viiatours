@@ -66,16 +66,76 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+            
             </div>
             
-        <p>...</p>
+        
+            
+            
+            
+            
         </div>
         </div>
     
     <div class="col-md-4">
         <div class="col-md-12">
         <div class="row">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="booking-info">
+                <div class="booking-header">   </div>
+                <form class="form-vertical" role="form">
+                <fieldset>
+                    <legend> BOOKING INFORMATION</legend>
+                    
+                    
+                    
+                    <style>.springDealsText { margin-top: 0px; } </style>
+
+            
+      <div class="form-horizontal">
+
+          <div class="form-group">
+                          <label>Adults:</label>
+              <span class="col-xs-6 h4" style="float:right;">
+              $ 45.00 USD</span>
+                      </div>
+
+                    <div class="form-group">
+                          <label>Children: <br> <span class="small">6 to 12 years old</span></label>
+              <span class="col-xs-6 h4" style="float:right;">$ 22.50 USD</span>
+                      </div>
+          
+      </div> <!-- form-horizontal -->
+
+                    
+                    
+                    <label>Adults:</label>
+                    <input type="number" name="adults" class="form-control form-half" min="1" max="16"  value="1" required><br>
+                          
+                    <label>Children:</label>
+              <input type="number" name="kids" class="form-control form-half" min="0" max="16" value="0"><br>
+             
+                    <div class="form-group">
+            <label>Date of tour:</label>
+            <input name="date" class="form-control datepicker" type="text" autocomplete="off" required>
+          </div><br>
+                    
+                    <div class="form-group">
+                      <label>Promocode:</label>
+                      <div class="input-group">
+                        <input name="promo_code" type="text" class="form-control" placeholder="Your promode">
+                        <span class="input-group-btn"><button class="btn btn-default" type="button">Apply!</button></span>
+                      </div>
+                    </div><br>
+                    
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary btn-block" value="BOOK NOW"></div>
+        
+                    
+                    </fieldset>
+                </form>
+                
+            </div>
+            <div class="clear mb-20"></div>
         </div>
         </div>
         </div>
