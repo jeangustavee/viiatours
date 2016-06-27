@@ -51,17 +51,17 @@
             </div>
             <div class="col-sm-8">
                 <ul class="pull-right">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Tours</a></li>
                     <li><a href="#">Sale</a></li>
                     <li><a href="#">Transport</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="company.php">Company</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Policy</a></li>
                     <li><a href="#">Contact Us</a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                 </ul>
             </div>
         </div>
