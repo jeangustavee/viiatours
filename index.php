@@ -91,7 +91,7 @@
             <p>Plenty to discover on this full day adventure including a visit the countryside and learn about Coffee and Cocoa plantation where you’ll try some organic coffee and Cacao.</p>
         </div>
         <div class="col-md-3">
-            <p><a href="#"><img src="images/featured-sales/horse-riding-1.jpg" class="img-responsive"></a> </p>
+            <p><a href="horseback-riding.php"><img src="images/featured-sales/horse-riding-1.jpg" class="img-responsive"></a> </p>
             <h4>HORSEBACK RIDING <span style="float:right;">$63</span></h4>
             <p>Live the dream of riding a horse along tropical white-sand beaches on this day trip from Punta Cana! Gorgeous scenery, friendly guides and amazing horses make this trip a trip to remember.</p>
         </div>

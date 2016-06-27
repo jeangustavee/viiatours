@@ -105,7 +105,7 @@
     <div class="row" id="tours">
         <div class="col-sm-3">
             <div class="tours-thumb">
-                <a href="#"><img src="images/tours/snorkeling/horse-riding-1.jpg" class="img-responsive" alt=""></a>
+                <a href="horseback-riding.php"><img src="images/tours/snorkeling/horse-riding-1.jpg" class="img-responsive" alt=""></a>
             </div>
         </div>
 
@@ -121,9 +121,9 @@
                 <span class="tour-deal">Deal</span>
                 <p class="from-price">from USD</p>
                 <h2 class="price-hidden"><center>$63</center></h2>
-                <p><a class="btn btn-blue btn-md" href="#" role="button">BOOK NOW</a></p>
+                <p><a class="btn btn-blue btn-md" href="horseback-riding.php" role="button">BOOK NOW</a></p>
                 
-                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button" id="btn-tours-media">BOOK NOW</a></p>
+                <p><a class="btn btn-primary btn-lg btn-block" href="horseback-riding.php" role="button" id="btn-tours-media">BOOK NOW</a></p>
             </div>
         </div>
     </div> <!-- /.row #tours -->

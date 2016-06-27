@@ -6,13 +6,9 @@
 <?php include('inc/header.php'); ?>
    <hr>
     <div class="container">
-        
-    <div class="container-fluid">
-    <div class="col-md-8">
-        <div class="col-md-12">
-        <div class="row">
-            
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+       <div class="row">
+            <div class="col-md-8">
+           <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -65,30 +61,17 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
-            
-            </div>
-            
-        
-            
-            
-            
-            
-        </div>
-        </div>
-    
-    <div class="col-md-4">
-        <div class="col-md-12">
-        <div class="row">
-            <div class="booking-info">
-                <div class="booking-header">   </div>
+</div>                                               
+           </div>
+           
+           
+            <div class="col-md-4">
+           <div class="booking-info">
+                <div class="booking-header"><legend> BOOKING INFORMATION</legend>
+               </div>
                 <form class="form-vertical" role="form">
                 <fieldset>
-                    <legend> BOOKING INFORMATION</legend>
-                    
-                    
-                    
-                    <style>.springDealsText { margin-top: 0px; } </style>
+                   
 
             
       <div class="form-horizontal">
@@ -117,15 +100,7 @@
                     <div class="form-group">
             <label>Date of tour:</label>
             <input name="date" class="form-control datepicker" type="text" autocomplete="off" required>
-          </div><br>
-                    
-                    <div class="form-group">
-                      <label>Promocode:</label>
-                      <div class="input-group">
-                        <input name="promo_code" type="text" class="form-control" placeholder="Your promode">
-                        <span class="input-group-btn"><button class="btn btn-default" type="button">Apply!</button></span>
-                      </div>
-                    </div><br>
+          </div>
                     
                     <div class="form-group">
                         <input type="submit" class="btn btn-primary btn-block" value="BOOK NOW"></div>
@@ -133,15 +108,47 @@
                     
                     </fieldset>
                 </form>
-                
             </div>
-            <div class="clear mb-20"></div>
-        </div>
-        </div>
+       </div>
+       </div>
+        
+        <br>
+        
+        <div class="row">
+        <div class="col-md-8"><!-- DESCRIPTION -->
+                 <h3>Description</h3>
+                A lovely excursion to explore the fauna and flora, and also the Dominican culture, riding beautiful horses through rural roads to reach a beautiful beach!        <p class="h4">Itinerary</p>
+        <p>Enjoy a relaxing day discovering the rural roads in Uvero Alto, riding one of the beautiful horses through quiet roads, while you get the chance to meet local people. This ride &nbsp;will take you straight to the beach of Uvero Alto where you can enjoy the beautiful beach. An ideal place to enjoy this beautiful paradise of the Dominican Republic.</p>
+            
+        <h4>Highlights</h4>
+        <p>Visit to Uvero Alto</p>
+            
+        <h4>Includes</h4>
+        <p>Transfer, training, helmets.</p>
+            
+        <h4>Not Included</h4>
+        <p>Photos and souvenirs</p>
+            
+        <h4>Recommendations</h4>
+        <p>Wear comfortable clothes, swimsuit, hiking shoes, sunscreen, insect repellent, bring extra cash.</p>
+            
+        <h4>Additional Information</h4>
+        <p>The price varies depending on the length of the tour. It is not recommended for people with any health problems.</p>
+        <h4>About Transportation</h4>
+        <p>Hotel lobby</p>
+        <h4>Activity Duration</h4>
+            
+        N/A        <h4>Tour Duration</h4>
+        N/A </div>
+            
+        <div class="col-md-4"></div>
         </div>
         
-</div>
-        </div>
+    </div>
+    
+    
+    <br><br><br><br><br><br>
+        
 <hr>
 <!-- FOOTER -->
 <?php include('inc/footer.php'); ?>
