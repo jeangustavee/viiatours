@@ -71,7 +71,7 @@
 <!-- Core JavaScript
 ================================================== -->
 <script src="js/jquery.min.js"></script>
-<script src="../js/bootstrap-datepicker.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
 
@@ -83,5 +83,19 @@
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+    $(document).ready(function(){
+        var date_input=$('input[name="date"]'); //our date input has the name "date"
+        var container=$('.booking-info form').length>0 ? $('.booking-info form').parent() : "body";
+        date_input.datepicker({
+            format: 'mm/dd/yyyy',
+            container: container,
+            todayHighlight: true,
+            autoclose: true,
+        })
+    })
+</script>
+
 </body>
 </html>
