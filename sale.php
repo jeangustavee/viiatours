@@ -15,12 +15,20 @@
 ================================================== -->
     
 <div class="container">
-
-    <div class="row">
-        <div class="headers">
+<div class="headers">
             <h2 class="sale">On Sale</h2>
             <p>All tours on sale with 10%-20% off regular price today. All sales are available until August 15th. Take adventage!</p>
         </div>
+    
+    
+    <div class="sale-cover">
+        <a href="sale.php"> <img src="http://placehold.it/1200x500" class="img-responsive" alt=""></a>
+    </div>
+    
+    
+    
+    <div class="row">
+        
         <div class="col-md-4">
             <!-- p><img data-src="holder.js/100px200?theme=sky"> </p -->
             <p><span class="box_sale"> 10%<sup>off</sup> </span>
@@ -30,19 +38,13 @@
             <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">BOOK NOW</a></p>
         </div>
         
-        <div class="col-md-4">
-            <p><img src="images/maxres-polaris-viiatours.jpg" class="img-responsive"> </p>
+        <div class="col-md-8">
+            <p><img src="http://placehold.it/750x240" class="img-responsive" alt=""> </p>
             <h3>dune buggy <span style="float:right;"> <font color="#2b8aca">$85</font></span> </h3>
-            <p>Visit and swim in an Indian cave. Drive on Macao Beach.  The racing time starts somewhere here in Punta Cana. Are you ready?</p>
+            <p>Visit and swim in an Indian cave. Drive on Macao Beach.  The racing time starts somewhere here in Punta Cana. Are you ready?<br>Please click to see more ie</p>
             <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">BOOK NOW</a></p>
         </div>
         
-        <div class="col-md-4">
-            <p><img src="images/zipline-canopy-puntacana-viia-tours.jpg" class="img-responsive"> </p>
-            <h3>zip line adventure <span style="float:right;"><font color="#2b8aca">$89</font></span> </h3>
-            <p>Discover the most exhilarating Adventure in the Dominican Republic with our canopy zip line experience.</p>
-            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">BOOK NOW</a></p>
-        </div>
     </div>
     <hr>
     

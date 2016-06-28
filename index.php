@@ -71,6 +71,19 @@
             <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">View details</a></p>
         </div>
     </div>
+    
+    <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>SEE WHAT'S ON SALE NOW</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+               
+                    <a class="btn btn-lg btn-primary btn-half" href="sale.php">ON SALE NOW</a>
+                </div>
+            </div>
+</div>
+    
     <hr>
 
 <!-- TOURS
