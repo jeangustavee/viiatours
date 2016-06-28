@@ -99,7 +99,7 @@
              
                     <div class="form-group">
             <label>Date of tour:</label>
-            <input name="date" class="form-control datepicker" type="text" autocomplete="off" required>
+            <input name="date" id="date" class="form-control datepicker" type="text" autocomplete="off" required>
           </div>
                     
                     <div class="form-group">
