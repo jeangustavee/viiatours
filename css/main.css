@@ -479,11 +479,31 @@ a:hover{
     }
 }
 
+.well {
+  text-align: center;
+  margin-top: 30px;
+  min-height: 20px;
+  padding: 79px;
+  margin-bottom: 20px;
+  color: darkgray;
+  background-color: transparent;
+  border: 1px solid #e3e3e3;
+  border-radius: 0;
+}
 
-/* ============= CAROUSEL =================*/
-    .myCarousel {
-        
-    }
+.well .btn {
+    background: transparent;
+    color: darkgray;
+    border-radius: 0;
+    border-color: darkgray;
+}
+
+.well .btn:hover {
+    background: #f1592a;
+    color: #fff;
+    border-radius: 0;
+    border-color: #f1592a;
+}
 
 /*============= GOOGLE TRANSLATE ===========*/
 #google_translate_element .goog-te-gadget-simple {
@@ -624,4 +644,9 @@ body>section {
     margin-top: 50px;
     margin-bottom: 50px;
     }
+}
+
+/*================= SALE PAGE =================*/
+.sale-cover {
+    padding-bottom: 40px;
 }
