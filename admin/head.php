@@ -12,7 +12,7 @@
     <div class="container">
 
         <div class="navbar-header">
-            <a class="navbar-brand" href="http://www.codingcage.com" title='Programming Blog'>Viia Tours ADMIN</a>
+            <a class="navbar-brand" href="index.php" title='Programming Blog'>Viia Tours ADMIN</a>
         </div>
 
     </div>
