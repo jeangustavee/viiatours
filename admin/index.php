@@ -22,7 +22,7 @@ include_once 'dbconfig.php';
             </tr>
             <?php
             $query = "SELECT * FROM tbl_tours";
-            $records_per_page=3;
+            $records_per_page=10;
             $newquery = $crud->paging($query,$records_per_page);
             $crud->dataview($newquery);
             ?>
