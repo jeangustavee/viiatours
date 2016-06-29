@@ -85,7 +85,7 @@ class crud
                 <tr>
                     <td><?php print($row['id']); ?></td>
                     <td><?php print($row['tour_name']); ?></td>
-                    <td><?php print($row['tour_desc']); ?></td>
+<!--                    <td>--><?php //print($row['tour_desc']); ?><!--</td>-->
                     <td><?php print($row['tour_price']); ?></td>
                     <td align="center">
                         <a href="edit-tour.php?edit_id=<?php print($row['id']); ?>"><i class="glyphicon glyphicon-edit"></i></a>
