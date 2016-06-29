@@ -6,7 +6,7 @@ include_once 'dbconfig.php';
     <div class="clearfix"></div>
 
     <div class="container">
-        <a href="add-tour.php" class="btn btn-large btn-info"><i class="glyphicon glyphicon-plus"></i> &nbsp; Add Records</a>
+        <a href="add-tour.php" class="btn btn-large btn-info"><i class="glyphicon glyphicon-plus"></i> &nbsp; Add New Tour</a>
     </div>
 
     <div class="clearfix"></div><br />
