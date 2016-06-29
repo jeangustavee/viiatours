@@ -80,6 +80,6 @@
     </div>
     
     </div> <!-- end con content -->
-<hr>
+
 <!-- FOOTER -->
 <?php include('inc/footer.php'); ?>

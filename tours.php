@@ -390,10 +390,7 @@
         </div>
         <!-- /.row -->
 
-<hr>
-
 </div> <!-- /. container -->
 
-<hr>
 <!-- FOOTER -->
 <?php include('inc/footer.php'); ?>
