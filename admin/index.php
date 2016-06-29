@@ -18,7 +18,6 @@ include_once 'dbconfig.php';
                 <th>Tour Name Name</th>
                 <th>Description</th>
                 <th>Price</th>
-                <th>Image</th>
                 <th colspan="2" align="center">Actions</th>
             </tr>
             <?php
