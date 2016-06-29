@@ -13,7 +13,7 @@ class crud
     {
         try
         {
-            $stmt = $this->db->prepare("INSERT INTO tbl_users(tour_name,tour_desc,tour_price,tour_image) VALUES(:tname, :tdesc, :tprice, :timage)");
+            $stmt = $this->db->prepare("INSERT INTO tbl_tours(tour_name,tour_desc,tour_price,tour_image) VALUES(:tname, :tdesc, :tprice, :timage)");
             $stmt->bindparam(":tname",$tname);
             $stmt->bindparam(":tdesc",$tdesc);
             $stmt->bindparam(":tprice",$tprice);
@@ -31,7 +31,7 @@ class crud
 
     public function getID($id)
     {
-        $stmt = $this->db->prepare("SELECT * FROM tbl_users WHERE id=:id");
+        $stmt = $this->db->prepare("SELECT * FROM tbl_tours WHERE id=:id");
         $stmt->execute(array(":id"=>$id));
         $editRow=$stmt->fetch(PDO::FETCH_ASSOC);
         return $editRow;
@@ -41,7 +41,7 @@ class crud
     {
         try
         {
-            $stmt=$this->db->prepare("UPDATE tbl_users SET tour_name=:tname, 
+            $stmt=$this->db->prepare("UPDATE tbl_tours SET tour_name=:tname, 
                                                  tour_desc=:tdesc, 
                 tour_price=:tprice, 
                 tour_image=:timage
@@ -64,7 +64,7 @@ class crud
 
     public function delete($id)
     {
-        $stmt = $this->db->prepare("DELETE FROM tbl_users WHERE id=:id");
+        $stmt = $this->db->prepare("DELETE FROM tbl_tours WHERE id=:id");
         $stmt->bindparam(":id",$id);
         $stmt->execute();
         return true;
