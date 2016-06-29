@@ -12,7 +12,7 @@ include_once 'dbconfig.php';
     <div class="clearfix"></div><br />
 
     <div class="container">
-        <table class='table table-bordered table-responsive'>
+        <table class='table table-hover table-responsive'>
             <tr>
                 <th>#</th>
                 <th>Tour Name Name</th>
