@@ -17,21 +17,21 @@
             <div class="col-md-6">
                 <img src="images/viia-combo-fetured.jpg" class="img-responsive">
                 <div class="carousel-caption">
-                    <h2>TOP RATED TOUR</h2>
-                    <p><a class="slide-name" href="#">SNORKELING & BUGGY <br><span class="price"><font size="3px"> <sup>from</sup> </font> $100</span></a></p>
+                    <h2>Top rated Tour</h2>
+                    <p><a class="slide-name" href="#">Snorkeling & Buggy <br><span class="price"><font size="3px"> <sup>from</sup> </font> $100</span></a></p>
                 </div>
             </div>
             <div class="col-md-3">
                 <img src="images/cover-2.png" class="img-responsive" id="cover_2">
                 <div class="carousel-caption" id="none">
-                    <h2><center>SNORKELING</center></h2>
+                    <h2><center>Snorkeling</center></h2>
                     <p><a class="slide-name price" href="#"><font size="3px"><sup>from</sup></font> $89</a></p>
                 </div>
             </div>
             <div class="col-md-3">
                 <img src="images/transportation-cover-picture.jpg" class="img-responsive" id="cover_3">
                 <div class="carousel-caption" id="none">
-                <h2>AIRPORT PICKUP</h2>
+                <h2>Airport Pickup</h2>
                     <p><a class="slide-name price" href="#"><font size="3px"><sup>from</sup></font> $65</a></p>
                     </div>
             </div>
@@ -83,8 +83,6 @@
                 </div>
             </div>
 </div>
-    
-    <hr>
 
 <!-- TOURS
 ================================================== -->
@@ -117,7 +115,6 @@
 
 </div> <!-- /container -->
 
-<hr>
 <!-- FOOTER
 ================================================== -->
 <?php include('inc/footer.php'); ?>
