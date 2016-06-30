@@ -14,9 +14,7 @@ include_once 'dbconfig.php';
     <div class="container">
         <table class='table table-hover table-responsive'>
             <tr>
-                <th>#</th>
                 <th>Tour Name Name</th>
-                <!--th>Description</th -->
                 <th>Price</th>
                 <th colspan="2" align="center">Actions</th>
             </tr>
