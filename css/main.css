@@ -312,6 +312,10 @@ button modifier
 }
 
 /* ============ GENERAL MODIFIER ================*/
+.carousel-caption h2, .slide-name {
+    text-transform: uppercase;
+}
+
 h4 {
     font-size: 1.5em;
     margin-top: 15px;
@@ -433,6 +437,20 @@ a:hover{
     line-height: 50px;
     left: -10px;
     top: -10px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50px;
+}
+
+.sale .tour-discount {
+    background-color: #f1592a;
+    border-radius: 100%;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    left: 20px;
+    top: 10px;
     position: absolute;
     text-align: center;
     text-transform: uppercase;

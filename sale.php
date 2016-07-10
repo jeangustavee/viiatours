@@ -30,12 +30,13 @@
     <div class="row">
         
         <div class="col-md-4">
-            <!-- p><img data-src="holder.js/100px200?theme=sky"> </p -->
-            <p><span class="box_sale"> 10%<sup>off</sup> </span>
-                <img src="images/snokleing-bebe-catamaran-1.jpg" class="img-responsive"> </p>
-            <h3>buggies & zipline <span style="float:right;"><strike> <font size="3px;">$144</font></strike> <br><font color="#2b8aca">$120</font></span></h3>
-            <p>VIIA TOURS is offering you 2 of the most popular excursions for the cheapest price you can possible find online.</p>
-            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">BOOK NOW</a></p>
+            <div class="sale">
+                <div class="tour-discount">10%<sup>off</sup> </div>
+                    <img src="images/snokleing-bebe-catamaran-1.jpg" class="img-responsive"> </p>
+                <h3>buggies & zipline <span style="float:right;"><strike> <font size="3px;">$144</font></strike> <br><font color="#2b8aca">$120</font></span></h3>
+                <p>VIIA TOURS is offering you 2 of the most popular excursions for the cheapest price you can possible find online.</p>
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">BOOK NOW</a></p>
+            </div>
         </div>
         
         <div class="col-md-8">
@@ -55,12 +56,13 @@
 
     <div class="row">
         <div class="col-md-4">
-            <!-- p><img data-src="holder.js/100px200?theme=sky"> </p -->
-            <p><span class="box_sale"> 10%<sup>off</sup> </span>
+            <div class="sale">
+                <div class="tour-discount">10%<sup>off</sup> </div>
                 <img src="images/snokleing-bebe-catamaran-1.jpg" class="img-responsive"> </p>
-            <h3>buggies & zipline <span style="float:right;"><strike> <font size="3px;">$144</font></strike> <br><font color="#2b8aca">$120</font></span></h3>
-            <p>VIIA TOURS is offering you 2 of the most popular excursions for the cheapest price you can possible find online.</p>
-            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">BOOK NOW</a></p>
+                <h3>buggies & zipline <span style="float:right;"><strike> <font size="3px;">$144</font></strike> <br><font color="#2b8aca">$120</font></span></h3>
+                <p>VIIA TOURS is offering you 2 of the most popular excursions for the cheapest price you can possible find online.</p>
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">BOOK NOW</a></p>
+            </div>
         </div>
         
         <div class="col-md-4">
@@ -80,6 +82,6 @@
     </div>
     
     </div> <!-- end con content -->
-<hr>
+
 <!-- FOOTER -->
 <?php include('inc/footer.php'); ?>

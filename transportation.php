@@ -1,3 +1,6 @@
+<!-- set a name for thisPage variable -->
+<?php $thisPage="Transportation"; ?>
+
 <!-- call head partial file -->
 <?php include('inc/head.php'); ?>
 
@@ -10,7 +13,7 @@
 <div class="container">
     <hr>
     <div class="headers">
-            <h2 class="sale">BLOG</h2>
+            <h2 class="sale">Transportation</h2>
     </div>
     
     

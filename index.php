@@ -17,21 +17,21 @@
             <div class="col-md-6">
                 <img src="images/viia-combo-fetured.jpg" class="img-responsive">
                 <div class="carousel-caption">
-                    <h2>TOP RATED TOUR</h2>
-                    <p><a class="slide-name" href="#">SNORKELING & BUGGY <br><span class="price"><font size="3px"> <sup>from</sup> </font> $100</span></a></p>
+                    <h2>Top rated Tour</h2>
+                    <p><a class="slide-name" href="#">Snorkeling & Buggy <br><span class="price"><font size="3px"> <sup>from</sup> </font> $100</span></a></p>
                 </div>
             </div>
             <div class="col-md-3">
                 <img src="images/cover-2.png" class="img-responsive" id="cover_2">
                 <div class="carousel-caption" id="none">
-                    <h2><center>SNORKELING</center></h2>
+                    <h2><center>Snorkeling</center></h2>
                     <p><a class="slide-name price" href="#"><font size="3px"><sup>from</sup></font> $89</a></p>
                 </div>
             </div>
             <div class="col-md-3">
                 <img src="images/transportation-cover-picture.jpg" class="img-responsive" id="cover_3">
                 <div class="carousel-caption" id="none">
-                <h2>AIRPORT PICKUP</h2>
+                <h2>Airport Pickup</h2>
                     <p><a class="slide-name price" href="#"><font size="3px"><sup>from</sup></font> $65</a></p>
                     </div>
             </div>
@@ -48,13 +48,14 @@
         <div class="headers">
             <h2 class="sale">On Sale Today</h2>
         </div>
-        <div class="col-md-4">
-            <!-- p><img data-src="holder.js/100px200?theme=sky"> </p -->
-            <p><span class="box_sale"> 10%<sup>off</sup> </span>
-                <img src="images/snokleing-bebe-catamaran-1.jpg" class="img-responsive"> </p>
-            <h3>buggies & zipline <span style="float:right;"><strike> <font size="3px;">$144</font></strike> <br><font color="#2b8aca">$120</font></span></h3>
-            <p>VIIA TOURS is offering you 2 of the most popular excursions for the cheapest price you can possible find online.</p>
-            <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">View details</a></p>
+        <div class="col-md-4 .sale">
+            <div class="sale">
+                <span class="tour-discount"> 10%<sup>off</sup> </span>
+                    <img src="images/snokleing-bebe-catamaran-1.jpg" class="img-responsive"> </p>
+                <h3>buggies & zipline <span style="float:right;"><strike> <font size="3px;">$144</font></strike> <br><font color="#2b8aca">$120</font></span></h3>
+                <p>VIIA TOURS is offering you 2 of the most popular excursions for the cheapest price you can possible find online.</p>
+                <p><a class="btn btn-primary btn-lg btn-block" href="#" role="button">View details</a></p>
+            </div>
         </div>
         
         <div class="col-md-4">
@@ -83,8 +84,6 @@
                 </div>
             </div>
 </div>
-    
-    <hr>
 
 <!-- TOURS
 ================================================== -->
@@ -117,7 +116,6 @@
 
 </div> <!-- /container -->
 
-<hr>
 <!-- FOOTER
 ================================================== -->
 <?php include('inc/footer.php'); ?>
