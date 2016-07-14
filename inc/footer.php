@@ -20,7 +20,7 @@
                       <span class="input-group-addon">
                         <i class="fa fa-envelope"></i>
                       </span>
-                      <input class="form-control" type="text" id="" name="" placeholder="your@email.com">
+                      <input class="form-control" type="text" id="" name="" placeholder="viiatours.info@gmail.com">
                     </div>
                     <input type="submit" value="Subscribe" class="btn btn-large btn-primary btn-block" />
               </form>
